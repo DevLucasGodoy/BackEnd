@@ -1,0 +1,9 @@
+<% noticias.forEach(function(noticia){ %>
+  <a href="/noticias/dados?id=<%= noticia.id %> ">
+  <%= noticia.autor %> 
+  <%= noticia.titulo %> 
+  <%= noticia.descricao %>
+  <%= noticia.dataPublicacao %> 
+  <%= noticia.conteudo %> 
+  </a>
+<% }) %>
